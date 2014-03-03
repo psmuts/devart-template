@@ -1,13 +1,20 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
+            "Google Translate"
+            "
         ],
         "platforms": [
-            "insert platforms"
+            "Linux"
+            "MongoDB"
+            
         ],
         "toolkits": [
-            "insert toolkits"
+            "HTML5"
+            "Javascript"
+            "CSS3"
+            "D3.js"
+            
         ]
     },
     "themes": [
