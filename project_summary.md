@@ -3,8 +3,7 @@ Random Exquisite Corpse( function(our_words): {return "Beauty"} )
 
 
 ## Author
-Peter Smuts
-[http://github.com/psmuts]  
+Peter Smuts http://github.com/psmuts
 
 
 ## Description
@@ -68,9 +67,4 @@ $( document ).ready(function(){
 ## Images & Videos
 NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
 
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
-
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
-
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
 
