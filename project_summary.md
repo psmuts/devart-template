@@ -1,34 +1,75 @@
-# Project Title
-Insert the name of your project
+# Beauty Is Random
+Random Exquisite Corpse( function(our_words): {return "Beauty"} ) 
 
 ## Authors
-- Insert main author name, surname, github account
-- Insert other author(s) name, surname, github account (one per list element)
+Peter Smuts
+[http://github.com/psmuts]  
+
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+"Beauty is Random" is powered by the interplay beteen networks,  social and technological, and random algorithms.  The project collects individual words, a word a day offered from contributors via Google+, Twitter, and Facebook and uses them as both visual and etymological seeds for the creation of dynamic network visualizations as well as sentences (funny, sad, shocking, absurd, poetic and sometimes beautiful,) constructed using the collected words and translated between most languages using Google Translate.  
+
+Technologially, the project leverages all the latest web technologies as well as a couple machine learning classification and ranking algorithms. The project will harness the tools and techniques of "Big Data" to efficiently process and analyze project data that will be incorporated into future phases of the project.
+
+Artistically, the project is a continuation of ideas I have been playing with for several years which concern issues of craft and concept, analog proxies for digital artifacts, authorship, ownership, and the implications, liberating and sometimes frightening, of our ever increasing connectedness.  
+
+Finally, the project is a manifestation of everything I think the future of art should, and perhaps, must be; connected, interactive, random and probabalistic, democratic, non-deterministic and... beautiful.  
 
 ## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
+COMING SOON
 
 [Example Link](http://www.google.com "Example Link")
 
 ## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
 ```
-function test() {
-  console.log("Printing a test");
-}
+$( document ).ready(function(){
+
+    var tick_counter = 1
+    var data;
+    var width = 2000,
+        height = 2000
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var force = d3.layout.force()  //variable assinged to function.
+        .gravity(.3)
+        .charge(-5000)
+        .linkDistance(20)
+        .size([width, height])
+        .linkStrength(function(d) {return d.value /100 })  //use to determine closeness for types of relations.
+        .friction([.45])
+        .alpha([.5])
+
+    d3.json("corpse.json", function(error,famJSON) {
+        if (error) return alert (error);
+        force
+            .nodes(famJSON.nodes)  
+            .links(famJSON.links)  
+            .start();
+
+        var link = svg.selectAll(".link")  
+            .data(famJSON.links)
+            .enter().append("line")
+            .attr("class", "link")
+
+        var node = svg.selectAll(".node")  
+            .data(famJSON.nodes)
+            .enter().append("g")
+            .attr("class", "node")
+            .call(force.drag);   
 ```
 ## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
-
-[Example Link](http://www.google.com "Example Link")
+[D3.js](https://github.com/mbostock)
+[Bottle.py](http://bottlepy.org/)
 
 ## Images & Videos
 NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
 
 ![Example Image](project_images/cover.jpg?raw=true "Example Image")
+
+https://www.youtube.com/watch?v=30yGOxJJ2PQ
 
 https://www.youtube.com/watch?v=30yGOxJJ2PQ
 
