@@ -1,5 +1,5 @@
 # 
-<H4> Beauty Is Random </H4>
+<H1> Beauty Is Random </H1>
 Random Exquisite Corpse( function(our_words): {return "Beauty"} ) 
 
 ## Author
