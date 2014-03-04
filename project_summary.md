@@ -17,7 +17,7 @@ Artistically, the project is a continuation of ideas I have been playing with fo
 Finally, the project is a manifestation of everything I think the future of art should, and perhaps, must be; connected, interactive, random and probabalistic, democratic, non-deterministic and... beautiful.  
 
 ## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
+COMING SOON
 
 [Example Link](http://www.google.com "Example Link")
 
