@@ -2,8 +2,8 @@
     "technologies": {
         "apis": [
             "Google Translate"
-            "Google+ "
-            "
+            "Google+"
+            
         ],
         "platforms": [
             "Linux"
@@ -15,7 +15,7 @@
             "CSS3"
             "D3.js"
             
-        ]
+        ],
     },
     "themes": [
         "insert themes"
