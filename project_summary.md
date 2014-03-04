@@ -1,5 +1,5 @@
-# Project Title
-Random Exquisite Corpse
+# Beauty Is Random
+Random Exquisite Corpse( Collecting Words, Making Beauty function(d): return "Beauty") 
 
 ## Authors
 Peter Smuts
