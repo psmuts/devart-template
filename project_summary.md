@@ -1,4 +1,5 @@
 # Beauty Is Random
+Random Exquisite Corpse( function(our_words): {return "Beauty"} ) 
 
 
 ## Author
@@ -7,13 +8,13 @@ Peter Smuts
 
 
 ## Description
-"Beauty is Random" is powered by the interplay beteen networks,  social and technological, and random algorithms.  The project collects individual words, a word a day offered from contributors via Google+, Twitter, and Facebook and uses them as both visual and etymological seeds for the creation of dynamic network visualizations as well as sentences (funny, sad, shocking, absurd, poetic and sometimes beautiful,) constructed using the collected words and translated between most languages using Google Translate.  
+"Beauty is Random" is powered by the interplay between networks,  social and technological, and random algorithms.  The project collects individual words, a word a day offered from contributors via Google+, Twitter, and Facebook and uses them as both visual and etymological seeds for the creation of dynamic network visualizations as well as sentences (funny, sad, shocking, absurd, poetic and sometimes beautiful,) constructed using the collected words and translated between most languages using Google Translate.  
 
 Technologially, the project leverages all the latest web technologies as well as a couple machine learning classification and ranking algorithms. The project will harness the tools and techniques of "Big Data" to efficiently process and analyze project data that will be incorporated into future phases of the project.
 
 Artistically, the project is a continuation of ideas I have been playing with for several years which concern issues of craft and concept, analog proxies for digital artifacts, authorship, ownership, and the implications, liberating and sometimes frightening, of our ever increasing connectedness.  
 
-Finally, the project is a manifestation of everything I think the future of art should, and perhaps, must be; connected, interactive, random and probabalistic, democratic, non-deterministic and... beautiful.  
+Finally, the project is a manifestation of what I think the future of art should, and perhaps, must be; connected, interactive, random and probabalistic, democratic, non-deterministic and... beautiful.  
 
 ## Link to Prototype
 COMING SOON
