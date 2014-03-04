@@ -1,7 +1,12 @@
 # Beauty Is Random
 
-Random Exquisite Corpse ( function(our_words): {return "Beauty"} ) 
+Random Exquisite Corpse 
 
+```
+
+function(our_words): {return "Beauty"} 
+
+```
 ## Author
 
 Peter Smuts http://github.com/psmuts
