@@ -1,4 +1,5 @@
-# Beauty Is Random
+# 
+<H4> Beauty Is Random </H4>
 Random Exquisite Corpse( function(our_words): {return "Beauty"} ) 
 
 ## Author
