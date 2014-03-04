@@ -1,7 +1,7 @@
 # Beauty Is Random
 Random Exquisite Corpse( function(our_words): {return "Beauty"} ) 
 
-## Authors
+## Author
 Peter Smuts
 [http://github.com/psmuts]  
 
