@@ -2,7 +2,7 @@
 
 Analog inspiration from earlier works
 
-I have been working around this idea for many years in both analog and digital forms.  In 2004 I created The Human Pixel Project (HPP.)  The HPP was a hybrid project in which I solicited artist via Craigslist to each give me 10 paintings, executed on 2x2 inch tiles which I mailed to them, along with a brief essay on art and a check for return postage.  The project went viral I acquired over 22,000 tiles, from thousands of artists all over the world by the projects completion.  
+I have been working around this idea for many years in both analog and digital forms.  In 2004 I created The Human Pixel Project (HPP.)  The HPP was a hybrid project in which I solicited artist via Craigslist to each give me 10 paintings, executed on 2x2 inch tiles which I mailed to them, along with a brief essay on art and a check for return postage.  The project went viral and at the time of completion I had collected over 22,000 paintings from thousands of artists all over the world. 
 
 !["http://www.damienb.com/images/peter/Front_Small.jpg"](http://www.damienb.com/images/peter/Front_Small.jpg "Human Pixel Project at Damien B") 
 
