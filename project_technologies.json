@@ -1,7 +1,8 @@
 {
     "technologies": {
         "apis": [
-            "Google+"
+            "Google+",
+            "Google Translate"
             
         ],
         "platforms": [
