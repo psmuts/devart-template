@@ -1,5 +1,5 @@
 # Beauty Is Random
-Random Exquisite Corpse( Collecting Words, function(d): {return "Beauty"}) 
+Random Exquisite Corpse(Collecting Words, function(d): {return "Beauty"}) 
 
 ## Authors
 Peter Smuts
@@ -12,7 +12,7 @@ Peter Smuts
 
 Technologially, the project leverages all the latest web technologies as well as a couple machine learning classification and ranking algorithms. The project will also harness the tools and techniques of "Big Data" to efficiently process and analyze project data that will be incorporated into future phases of the project.    
 
-Artistically, the project is a continuation of ideas I have been playing with for several years which concern issues of craft and concept, analog proxies for digital artifacts, authorship, ownership, property and public and the effect of our ever increasing connectedness.  
+Artistically, the project is a continuation of ideas I have been playing with for several years which concern issues of craft and concept, analog proxies for digital artifacts, authorship, ownership, and the implications, both liberating and sometimes frightening, of our ever increasing connectedness.  
 
 Finally, the project is a manifestation of everything I think the future of art should, and perhaps must be; connected, interactive, random and probabalistic, interactive, democratic, non-deterministic and... beautiful.  
 
