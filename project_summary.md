@@ -1,5 +1,5 @@
 # Beauty Is Random
-Random Exquisite Corpse( Collecting Words, Making Beauty , function(d): {return "Beauty"}) 
+Random Exquisite Corpse( Collecting Words, function(d): {return "Beauty"}) 
 
 ## Authors
 Peter Smuts
