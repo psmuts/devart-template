@@ -22,7 +22,7 @@ function test() {
 ```
 ## Links to External Libraries
 [D3.js](https://github.com/mbostock)
-[Example Link](http://www.google.com "Example Link")
+
 
 ## Images & Videos
 NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
