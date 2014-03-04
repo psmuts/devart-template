@@ -1,23 +1,25 @@
 {
     "technologies": {
         "apis": [
-            "Google Translate"
             "Google+"
             
         ],
         "platforms": [
-            "Linux"
+            "App Engine",
+            "python",
+            "bottle",
             "MongoDB"
-            
         ],
         "toolkits": [
-            "HTML5"
-            "CSS3"
+            "javascript",
             "D3.js"
-            
         ]
     },
     "themes": [
-        "insert themes"
+        "Language",
+        "Randomness",
+        "Flowers",
+        "Words",
+        "Networks"
     ]
 }
