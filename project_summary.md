@@ -22,12 +22,6 @@ COMING SOON
 
 ## Example Code
 ```
-$( document ).ready(function(){
-
-    var tick_counter = 1
-    var data;
-    var width = 2000,
-        height = 2000
 
     var svg = d3.select("body").append("svg")
         .attr("width", width)
@@ -48,17 +42,6 @@ $( document ).ready(function(){
             .nodes(famJSON.nodes)  
             .links(famJSON.links)  
             .start();
-
-        var link = svg.selectAll(".link")  
-            .data(famJSON.links)
-            .enter().append("line")
-            .attr("class", "link")
-
-        var node = svg.selectAll(".node")  
-            .data(famJSON.nodes)
-            .enter().append("g")
-            .attr("class", "node")
-            .call(force.drag);   
 ```
 ## Links to External Libraries
 [D3.js](https://github.com/mbostock)
