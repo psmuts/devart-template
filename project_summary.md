@@ -1,10 +1,8 @@
-# 
-<H1> Beauty Is Random </H1>
-Random Exquisite Corpse( function(our_words): {return "Beauty"} ) 
+# Beauty Is Random
+Random Exquisite Corpse ( function(our_words): {return "Beauty"} ) 
 
 ## Author
-Peter Smuts
-[http://github.com/psmuts]  
+Peter Smuts http://github.com/psmuts
 
 
 ## Description
@@ -22,6 +20,7 @@ COMING SOON
 [Example Link](http://www.google.com "Example Link")
 
 ## Example Code
+
 ```
 $( document ).ready(function(){
 
@@ -61,6 +60,7 @@ $( document ).ready(function(){
             .attr("class", "node")
             .call(force.drag);   
 ```
+
 ## Links to External Libraries
 [D3.js](https://github.com/mbostock)
 [Bottle.py](http://bottlepy.org/)
