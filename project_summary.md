@@ -5,7 +5,6 @@ Random Exquisite Corpse( function(our_words): {return "Beauty"} )
 Peter Smuts
 [http://github.com/psmuts]  
 
-(DRAFT ONLY - EDITING IN PROGRESS)
 
 ## Description
 "Beauty is Random" is powered by the interplay beteen networks,  social and technological, and random algorithms.  The project collects individual words, a word a day offered from contributors via Google+, Twitter, and Facebook and uses them as both visual and etymological seeds for the creation of dynamic network visualizations as well as sentences (funny, sad, shocking, absurd, poetic and sometimes beautiful,) constructed using the collected words and translated between most languages using Google Translate.  
