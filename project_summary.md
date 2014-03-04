@@ -8,9 +8,9 @@ Peter Smuts
 (DRAFT ONLY - EDITING IN PROGRESS)
 
 ## Description
-"Beauty is Random" is powered by the interplay beteen networks,  social and technological, and random algorithms.  The project collects individual words, a word a day offered from contributors via Google+, Twitter, and Facebook and uses them as both visual and etymological seeds for the creation of dynamic network visualizations as well as sentences (funny, sad, shocking, absurd, poetic and sometimes beautiful) constructed using the collected words.  
+"Beauty is Random" is powered by the interplay beteen networks,  social and technological, and random algorithms.  The project collects individual words, a word a day offered from contributors via Google+, Twitter, and Facebook and uses them as both visual and etymological seeds for the creation of dynamic network visualizations as well as sentences (funny, sad, shocking, absurd, poetic and sometimes beautiful,) constructed using the collected words and translated between most languages using Google Translate.  
 
-Technologially, the project leverages all the latest web technologies as well as a couple machine learning classification and ranking algorithms. The project will also harness the tools and techniques of "Big Data" to efficiently process and analyze project data that will be incorporated into future phases of the project.    
+Technologially, the project leverages all the latest web technologies as well as a couple machine learning classification and ranking algorithms. The project will harness the tools and techniques of "Big Data" to efficiently process and analyze project data that will be incorporated into future phases of the project.
 
 Artistically, the project is a continuation of ideas I have been playing with for several years which concern issues of craft and concept, analog proxies for digital artifacts, authorship, ownership, and the implications, both liberating and sometimes frightening, of our ever increasing connectedness.  
 
@@ -30,6 +30,7 @@ function test() {
 ```
 ## Links to External Libraries
 [D3.js](https://github.com/mbostock)
+[Bottle.py](http://bottlepy.org/)
 
 
 ## Images & Videos
@@ -37,4 +38,3 @@ NOTE: For additional images you can either use a relative link to an image on th
 
 ![Example Image](project_images/cover.jpg?raw=true "Example Image")
 
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
