@@ -4,9 +4,6 @@ I am fading in random colors and debating whether I should constrain each color 
 
 !["Motion Study"](https://www.youtube.com/watch?v=XfNrPa0SHQI "Motion Study") 
 
-https://www.youtube.com/watch?v=XfNrPa0SHQI 
-
-!["Motion Study"](project_images/motion_study.mov "Motion Study") 
 
 The final project will be projected on a large wall and while I want the effect to at times chaotic, I more like the flowing, jellyfish like feel.  Still playing.  
 
