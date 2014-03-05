@@ -2,6 +2,6 @@ This morning I spent a couple of hours playing with the D3 force physics engine 
 
 I am  slowly fading in our random colors and debating whether I should constrain each color cycle to single palette or let colors continuously vary along the full spectrum.  
 
-!["http://youtu.be/XfNrPa0SHQI"](http://youtu.be/XfNrPa0SHQI "Motion Study") 
+!["http://youtu.be/XfNrPa0SHQI"](http://youtube/XfNrPa0SHQI "Motion Study") 
 
 The final project will be projected on a large wall and while I want the effect to at times chaotic, I more like the flowing, jellyfish like feel.  Still playing.  
