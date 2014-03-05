@@ -4,7 +4,7 @@ I am  slowly fading in our random colors and debating whether I should constrain
 
 !["http://www.youtube.com/watch?v=XfNrPa0SHQI"](http://www.youtube.com/watch?v=XfNrPa0SHQI "Motion Study") 
 
-http://www.youtube.com/watch?v=XfNrPa0SHQI 
+https://www.youtube.com/watch?v=XfNrPa0SHQI 
 
 The final project will be projected on a large wall and while I want the effect to at times chaotic, I more like the flowing, jellyfish like feel.  Still playing.  
 
