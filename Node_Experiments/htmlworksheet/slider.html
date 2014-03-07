@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>jQuery UI Slider - Snap to increments</title>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+ <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  
+  <script>
+  $(function() {
+    $( "#slider" ).slider({
+      value:2012,
+      min: 2000,
+      max: 2012,
+      step: 1,
+      slide: function( event, ui ) {
+        $( "#year" ).val(ui.value );
+      }
+    });
+	$( "#year" ).val($( "#slider" ).slider( "value" ) );
+
+  });
+  </script>
+</head>
+<body>
+
+<div id="slider-container" style="background-color:#06F">
+    <p>
+      <label for="year">Select Year</label>
+      <input type="text" id="year" style="border: 0; color: #000; font-size:16px; font-weight: bold;" />
+    </p>
+     
+    <div id="slider" style="width:300px"></div>
+</div>
+ 
+</body>
+</html>

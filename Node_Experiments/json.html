@@ -1,0 +1,155 @@
+<<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>D3 Page Template</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<script type="text/javascript" src="modernizr.js"></script>
+<script type="text/javascript" src="d3.v3.js"></script> 
+
+<link href="main.css" rel="stylesheet" media="screen" type="text/css" >
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<script>
+
+//var data;
+/*
+d3.json("test_data.json", function(error,data) {
+		if (error) 
+			{return alert (error)};
+		
+
+		
+});
+
+*/
+
+
+$.getJSON('test_data.json', function(data) {
+  var items = [];
+ 
+  $.each(data.nodes, function(key, val) {
+    alert(val.name)  //name and group are names in json file.  
+	alert(val.group)
+	items.push( 'Name = ' + val.name + ' Group =' + val.group );key
+	//alert(key)
+	//alert(val)
+  });
+  $.each(data.links, function (key, val) {
+	  
+	 alert(val.source)
+	 alert(val.target)
+	 alert(val.value) 
+	  items.push( 'Source = ' + val.source + ' Target =' + val.target + ' Value=' + val.value  );key
+	 	  
+	  });
+	  
+	
+	
+	//  Get a particular record.   Normally probably done separate call to json, rather than pulling whole dataset as array.  
+ 
+  $('<ul/>', {
+    'class': 'my-new-list',
+    html: items.join("<br>  Each Group is a array.  In this case 'nodes' and 'links' <br> <br>")
+  }).appendTo('body');
+});
+
+
+
+/*
+
+{
+  "one": "Singular sensation",
+  "two": "Beady little eyes",
+  "three": "Little birds pitch by my doorstep"
+}
+
+
+*/
+
+$.getJSON('simpleJSON.json', function(json) {
+  var items = [];
+ 
+  $.each(json, function(key, val) {
+    items.push('<li id="' + key + '">' + val + '</li>');key
+	//alert(key)
+	//alert(val)
+  });
+  
+ 
+  $('<ul/>', {
+    'class': 'my-new-list',
+    html: items.join("<br>PSTest <br>")
+  }).appendTo('body');
+});
+/*
+
+You can access x from your JSON like this:
+
+{ // base object
+    "stuff": [ // array
+    { // 0.: object
+        "id": 1,  // key => value
+        "x" : 3,  // key => value
+        "y" : 6,  // key => value
+        "z" : -6  // key => value
+    },
+    { // 1.: object
+        "id": 2,  // key => value
+        "x" : 2,  // key => value
+        "y" : 7,  // key => value
+        "z" : -3  // key => value
+    }]
+}
+
+
+Because your JSON tree looks like this:
+$.getJSON("stuffJSON", function(data) {
+
+	var x1 = data.
+
+tuff[0].x; // the first object's x key
+	var x2 = data.stuff[1].x; // the second object's x key
+
+
+});
+So with dat
+
+.stuff[0].x you select stuff object then it's first element and then its x key.
+
+But If you want to handle all the x key for example, then you need to loop through the stuff array by a simple for loop or the $.each method.
+
+
+
+var json = {
+    "people": {
+        "person": [{
+            "name": "Peter",
+            "age": 43,
+            "sex": "male"},
+        {
+            "name": "Zara",
+            "age": 65,
+            "sex": "female"}]
+    }
+};
+$.each(json.people.person, function(i, v) {
+    if (v.name == "Peter") {
+        alert(v.age);
+        return;
+    }
+});
+
+
+
+
+
+
+*/
+</script>
+
+</body>
+</html>

@@ -29,15 +29,6 @@ for i in range(0,1000):
     link_dict = {"source": i, "target":  random.randint(0,len(nodes_collection)),"value": random.randint(1,1)}
     nodes_collection["links"].append(link_dict)
 #be cool to generate links to each other word type
-
-    '''
-    link_dict = {"source": i, "target":  random.randint(0,len(nodes_collection)),"value": random.randint(1,10)}
-    nodes_collection["links"].append(link_dict)
-    link_dict = {"source": i, "target":  random.randint(0,len(nodes_collection)),"value": random.randint(1,10)}
-    nodes_collection["links"].append(link_dict)
-    link_dict = {"source": i, "target":  random.randint(0,len(nodes_collection)),"value": random.randint(1,10)}
-    nodes_collection["links"].append(link_dict)
-    '''
     if j < 2:
         j += 1
     else:

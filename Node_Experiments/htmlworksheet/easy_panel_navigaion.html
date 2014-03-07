@@ -1,0 +1,69 @@
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<meta name="author" content="Flux User" >
+		<meta name="description" content="My Website" >
+		<meta name="keywords" content="Flux, Mac" >
+		<link href="main.css" rel="stylesheet" media="screen" type="text/css" >
+		<title>My Webpage</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script><script>
+
+$(document).ready(function() {
+	
+	$('.navbutton').click(function() {
+		// save $(this) in a variable for efficiency
+		var $this = $(this);
+		// hide panels
+		$('.panel').hide();  
+  
+        //remove active class from navbuttons
+		$('.navbutton.active').removeClass('active'); 
+		// add active state to new tab
+
+		//highlight and expand new nav button
+		
+		//expand size of div, to show summary informaiton.  
+		$this.addClass('active').blur();
+		
+		// retrieve ic from link (is id of panel to display
+		var panel = $this.attr('title');
+		// show panel
+		$(panel).fadeIn(950);
+		// don't follow link down page
+		return(false);
+	}); // end click
+	 
+     
+     //on load.  
+	// open first tab
+	$('#navbutton1').click();
+	
+	
+	
+	//transition colors, images, more info and size.  tight to each other or separated.   Use navcontainer for positioning.  
+    
+}); // end ready/
+</script></head>
+<body>
+
+
+<div class="bigwrapper">
+<span>
+    <div class="navcontainer" id="navcontainer1" >
+            <div class="navbutton" id="navbutton1" title="#panel1" ><a href="#panel1" >Economy</a></div>
+                <div class="navbuttonexpanded" id="navbuttonexpanded1" ></div>
+            <div class="navbutton" id="navbutton2" title="#panel2" ><a href="#panel2" >Land Use</a></div>
+            <div class="navbutton" id="navbutton3" title="#panel3" ><a href="#panel3" >Climate</a></div>
+    </div>
+    
+    <div class="panelcontainer" >
+        
+        <div class="panel" id="panel1" ><h1> Panel 1</h1><div class='map-container' id='map1'></div></div>
+        <div class="panel" id="panel2" ><h1> Panel 2</h1><div class='map-container' id='map2'></div></div>
+        <div class="panel" id="panel3" ><h1> Panel 3</h1><div class='map-container' id='map3'></div></div>
+    
+    
+    </div>  
+</span>	
+</div>
+
+</body></html>

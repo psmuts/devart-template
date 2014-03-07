@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" ><head><meta charset="utf-8" >
+
+<script type="text/javascript" src="libs/jquery-1.9.1.min.js" ></script>
+<script type="text/javascript" src="libs/modernizr.js" ></script>
+
+<script src="http://d3js.org/d3.v3.min.js" ></script>
+<script src="http://d3js.org/topojson.v0.min.js" ></script>
+<script src="http://d3js.org/queue.v1.min.js" ></script>
+<script src="libs/data_vis_1.js" ></script>
+<script src="libs/suppCharts.js" ></script>
+
+ <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  
+  <script>
+  $(function() {
+    $( "#slider" ).slider({
+      value:2012,
+      min: 2000,
+      max: 2012,
+      step: 1,
+      slide: function( event, ui ) {
+        $( "#year" ).val(ui.value );
+      }
+    });
+	$( "#year" ).val($( "#slider" ).slider( "value" ) );
+
+  });
+  </script>
+
+
+<link href="styles/data_vis_1.css" rel="stylesheet" media="screen" type="text/css" >
+
+<title></title></head>
+
+
+<body>
+<div class="bigwrapper">
+    <div class="mainnav">
+	  <div id="main-title"><span>DATA=ACTION </span>	
+          <div class="subtitle">DATA YOU CAN PLAY WITH, FOR A BETTER INFORMED YOU</div>
+        </div>
+      <div id="menu">
+              <ul>
+                  <li><a class='navbutton' id = "navbutton1" title="#content-download" href="#content-download">DOWNLOAD DATA</a></li>
+                  <li><a class='navbutton' id = "navbutton2" title="#content-definitions" href="#content-definitions">DEFINITIONS</a></li>
+                  <li><a class='navbutton' id = "navbutton3" title="#content-methodology" href="#content-methodology">METHODOLOGY</a></li>
+                  <li ><a class='navbutton' id = "navbutton4" title="#content-summary" href="#content-summary">SUMMARY</a></li>
+              </ul>
+		</div>
+	</div> 
+    
+  <div class='map-container'>
+            <div id="map-controls">
+                    <ul>
+                        <li>Select View
+                            <select name="select-view">
+                                <option value="macbook" >County</option>
+                                <option value="macbookpro" >State</option>
+                           </select>
+             
+                          </li>
+                        <li>Select Region
+                            <select name="select-view">
+                                <option value="us" >Entire US</option>
+                                <option value="rockymtns" >Rocky Mountain</option>
+                                <option value="southwest" >South West</option>
+                           </select>
+                            
+                            
+                          </li>
+                        <li>Select Year  <select  name="select-year">
+                                                <option value="us" >Generated from Data Available</option>
+                                                <option value="2010" >2010</option>
+                                                <option value="2011" >2011</option>
+                                            </select>
+                        </li>
+                        <li>Select Dataset  <select  name="select-dataset">
+                                                <option value="economy" >Economy</option>
+                                                <option value="landuse" >Land Use</option>
+                                                 <option value="climate" >Climate</option>
+        
+                                            </select>
+                        </li>
+                    </ul>
+			</div>
+    	<div id="view-controls">
+            	<ul>
+            		<li><img src="images/plus.png" width="22" height="22"></li>
+                    <li> <img src="images/minus.png" width="22" height="22"></li>
+                    <li> <img src="images/home.png" width="22" height="22"></li>
+            	</ul>
+          </div>
+          <div id="colour-legend">
+                   <div class="legend-heading">MAP KEY</div>
+                  <div class="colour-legend-box" style="background: #065682"></div>
+                  <div class="colour-legend-box" style="background: #0071a4"></div>
+                  <div class="colour-legend-box" style="background: #489ec5"></div>
+                  <div class="colour-legend-box" style="background: #7abddc"></div>
+                  <div class="colour-legend-box" style="background: #afdef3"></div>
+                  <div class="colour-legend-box" style="background: #CCCCCC"></div>
+                  <div class="colour-legend-box" style="background: #FFFFFF"></div>
+            </div>
+          <div id="colour-legend-text">
+                  <div class="legend-heading"></div>
+                  <p>Strong Effort</p>
+                  <p>Moderate Effort</p>
+                  <p>Some Effort</p>
+                  <p>No Effort</p>
+                  <p>No Effort Estimate</p>
+                  <p>No Target</p>
+                  <p>No Data</p>
+          </div>
+<div id="social-links" style="position:absolute;top:191px;left:1210px;width:37px;height:240px;background-image:url('images/social_networks.png')" > </div>
+
+<div id="slider-container">
+
+    <div id="slider-label-left">2000 </div>
+     <div id="slider-label-right">2012 </div>
+     
+     <div id="slider-label">
+
+     	 <input type="text" id="year" style="border: 0;  font-size:12px; background-color:inherit; font-weight: bold; color:#999" />
+
+    </div>
+    
+    	<div id="slider"></div>
+</div>
+
+
+</div>
+
+<div class="content-panel-container">
+	<div class="content-panel" id="content-summary">
+    	<div class="content-panel-header">
+        	<h1>Summary</h1> 	
+        </div>
+
+		<p>
+            The World Bank has adopted the following terminology in line with the 1993 System of National Accounts (SNA). The changes in terms are listed below.                                         
+         </p>
+    </div>
+    <div class="content-panel" id="content-methodology">
+    	<div class="content-panel-header">
+    		<h1>Methodology</h1>
+       </div>
+    </div>
+
+	<div class="content-panel" id="content-definitions">
+        <div class="content-panel-header">
+    		<h1>Definitions</h1>
+       </div>
+    </div>
+
+	<div class="content-panel" id="content-download">
+    	<div class="content-panel-header">    
+    		<h1>Download</h1>
+       </div>
+    </div>
+
+</div>
+    
+  <!-- hidden divs -->
+  
+    <div id="supplementalGraphs"  style="left:132px;top:327px">
+    </div>	
+</div>
+</html>

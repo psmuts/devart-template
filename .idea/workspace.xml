@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5044783-8fb8-47ec-930c-2916ea7d0ae9" name="Default" comment="" />
+    <list default="true" id="a5044783-8fb8-47ec-930c-2916ea7d0ae9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project_code/dummy_data.py" afterPath="$PROJECT_DIR$/project_code/dummy_data.py" />
+    </list>
     <ignored path="devart-template.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +28,7 @@
       <file leaf-file-name="dummy_data.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project_code/dummy_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="14" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.7463592" vertical-offset="0" max-vertical-offset="870">
+            <state line="39" column="35" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.70995146" vertical-offset="0" max-vertical-offset="824">
               <folding>
                 <element signature="e#292#305#0" expanded="true" />
               </folding>
@@ -57,8 +59,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="375" />
-    <option name="y" value="22" />
+    <option name="x" value="569" />
+    <option name="y" value="52" />
     <option name="width" value="1223" />
     <option name="height" value="1366" />
   </component>
@@ -291,7 +293,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="375" y="22" width="1223" height="1366" extended-state="0" />
+    <frame x="569" y="52" width="1223" height="1366" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -302,7 +304,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -327,7 +329,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project_code/dummy_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="14" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.7463592" vertical-offset="0" max-vertical-offset="870">
+        <state line="39" column="35" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.70995146" vertical-offset="0" max-vertical-offset="824">
           <folding>
             <element signature="e#292#305#0" expanded="true" />
           </folding>

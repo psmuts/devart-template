@@ -1,0 +1,32 @@
+{
+
+"nodes":[
+    {"name":"noun","group":"center","color":"red", "radi": "18"},
+    {"name":"verb","group":"nuclear","color":"green", "radi": "13"},
+    {"name":"adjective","group":"nuclear","color":"orange", "radi": "12"},
+    {"name":"adverb","nuclear":"child","color":"blue", "radi": "10"},
+    {"name":"I Hate Chokes","group":"sibling","color":"white", "radi": "20"},
+    {"name":"Folds","group":"in-law","color":"pink", "radi": "13"},
+    {"name":"Blue is not Green","group":"child-friend","color":"yellow", "radi": "12"},
+    {"name":"Love","group":"child-friend","color":"purple", "radi": "12"},
+    {"name":"Hate","group":"child-friend","color":"purple", "radi": "7"},
+    {"name":"Myth","group":"child-friend","color":"purple", "radi": "5"},
+    {"name":"California","group":"child-friend","color":"purple", "radi": "20"},
+    {"name":"Green","group":"child-friend","color":"purple", "radi": "50"}
+]
+
+,
+    "links":[
+    {"source":0,"target":1,"value":300},
+    {"source":0,"target":2,"value":300},
+    {"source":0,"target":3,"value":300},
+    {"source":0,"target":4,"value":100},
+    {"source":4,"target":5,"value":300},
+    {"source":4,"target":8,"value":300},
+    {"source":4,"target":9,"value":300},
+    {"source":2,"target":6,"value":5},
+    {"source":2,"target":7,"value":5},
+    {"source":6,"target":7,"value":5}
+]
+
+}

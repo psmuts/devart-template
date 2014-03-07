@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+
+<!--
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="http://d3js.org/topojson.v0.min.js"></script>
+-->
+<script src="libs/d3.v3.min.js"></script>
+<script src="libs/d3.geo.projection.v0.min.js"></script>
+<script src="libs/topojson.v0.min.js"></script>
+<script src="libs/queue.v1.min.js" ></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+
+
+<script src="http://libs.cartocdn.com/cartodb.js/v2/cartodb.js"></script>
+<script src="javascript/wd4c.js"></script>
+<link href="styles/wd4c.css" rel="stylesheet" media="screen" type="text/css" >
+<link href="styles/tooltips.css" rel="stylesheet" media="screen" type="text/css" >
+
+</head>
+<body>
+<div class="bigWrapper">
+
+        <div id="left_side_bar_title">
+                <img src="images/Working_Dogs_logo.png"></img>
+        </div>
+        <div id="left_side_bar">
+            <div id="left_side_bar_header"></div>
+            <div id="left_side_bar_body"></div>
+            <!--
+            <div id="left_side_bar_effects_header"></div>
+            <div id="left_side_bar_effects_body"></div>
+        -->
+            <div id="icon_container">
+            		<!-- <p>Project Quick Reference</p>  -->
+                    <img src='images/orange.png' class='basic_icon'>
+                    <img src='images/green.png' class='basic_icon'>
+                    <img src='images/blue.png' class='basic_icon'>
+                    <img src='images/purple.png' class='basic_icon'>
+                    <img src='images/yellow.png' class='basic_icon'>
+             </div>           
+        </div> <!-- left side bar -->
+        <!--
+        <div id="right_upper_container">
+            	<p>Dig In to this Project</p>
+                
+            
+        </div>
+        -->
+     <div id="map_container">
+        <div id="social_links_container">
+                	<img src='images/facebook.png' class='social_icon'>
+                    <img src='images/linkedin.png' class='social_icon'>
+                    <img src='images/google.png' class='social_icon'>
+                    <img src='images/twitter.png' class='social_icon'>
+        </div>
+        <div id="legend_container">
+        <p>Legend</p>
+        </div>
+        <div id="instructions_container">
+        	<p>Click and Drag the Map to Rotate View</p>
+        </div>
+	</div> <!-- map_container -->
+
+
+    <!-- hidden divs  -->
+
+     <div class="tooltip" id="mypopup">
+        <div class="ttdeeper"><img src="images/digdeeper.png" class='icondeeper'></div>
+        <div class="ttheader"></div>
+        <div class="ttbodycontainer"></div>
+    </div>
+    
+    <!--  enhanced popup  -->
+
+
+    <div class="enhanced_popup">
+        <div id="ep_detail_container">
+            <div id="ep_detail_header"></div>
+            <div id="ep_detail_body"></div>
+            <!--
+            <div id="ep_effects_header"></div>
+            <div id="ep_effects_body"></div>
+            -->
+         </div> 
+         <div id="ep_map"></div>
+         <div id="research">
+             <div id="research_header"><h1>News, Links and Research</h1></div>
+              
+          </div>
+          <div id="ep_close">Close</div>
+     </div>
+    
+</div>
+</body>

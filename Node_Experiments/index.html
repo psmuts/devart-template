@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>
+
+<script type="text/javascript" src="libs/jquery-1.9.1.min.js" ></script>
+<script type="text/javascript" src="libs/modernizr.js" ></script>
+
+<!--
+<script src="http://d3js.org/queue.v1.min.js" ></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="http://d3js.org/topojson.v0.min.js"></script>
+-->
+<script src="libs/d3.v3.min.js"></script>
+<script src="libs/splash_3.js" ></script>
+  
+<link href="styles/splash.css" rel="stylesheet" media="screen" type="text/css" >
+<link href="styles/splash_tooltips.css" rel="stylesheet" media="screen" type="text/css" >
+
+
+<title></title></head>
+
+
+<body>
+    <div class="splash_container"> 
+    
+    	<div id="header">Economic Sector Analysis of Rocky Mountain West</div>
+        <div id="view_toggle">Toggle Text<input name = "toggle_view" type="checkbox" id="toggle_view"></div>
+
+        <div id = "logo">
+        	<h1>BADLANDS</h1>
+            <h1>ECONOMICS</h1>
+            <p>	© Backlands Economics, 2013 </p>
+        </div>
+        <div class = "splash_text" id="high_text"></div>
+        <div class = "splash_text"id="mid_text"></div>
+        <div class = "splash_text" id="low_text"></div>
+		<div id="legend_container">           
+            <div id="legend_icon_container"> </div>
+            <div id="legend_text_container"></div>
+		</div>
+        <div class = "app_description">
+        	<p>The total size of the private sector economy is defined by the total size of the disk.  The width of each ring represents a particular economic sector's percentage of the non-government economy in descending scale, except for the center, which is the aggregate total of mining, agriculture, forestry, fishing, and hunting.  
+        
+        
+        </div>
+            
+    </div>
+    
+    <!-- HIDDEN DIVS -->
+    
+
+    
+      <div class="tooltip" id="mypopup">
+        <!-- <div class="ttdeeper"><img src="images/digdeeper.png" class='icondeeper'></div>  -->
+        <div class="ttheader"></div>
+        <div class="ttbodycontainer"></div>
+    </div>
+    
+    
+</body>
+</html>
