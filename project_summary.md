@@ -12,9 +12,9 @@ Peter Smuts http://github.com/psmuts
 
 "Beauty is Random" is powered by the interplay between networks,  social and technological, and random algorithms.  The project collects individual words, word offered by participants via Google+, Twitter, and Facebook; words collected from Google Trends and finally, a randomized selection of words from the Oxford English Dictionary.  These words become both visual and etymological seeds for the creation of dynamic network visualizations and 'exquisite corpse' sentences (funny, sad, shocking, absurd, poetic and sometimes beautiful) constructed using the collected words and translated between languages using Google Translate.  
 
-Technologially, the project leverages dynamic web technologies as well as a couple machine learning classification and ranking algorithms. The project will harness the tools and techniques of "Big Data" to efficiently process and analyze project data that will be incorporated into future phases of the project.
+Technologially, the project leverages Google App Engine running python backend and HTML5,CSS3,JS browser stack.  Future iterations of the project will harness "Big Data" techniques to efficiently process and analyze project data that will be incorporated into future phases of the project.
 
-Artistically, the project is a continuation of ideas I have been playing with for several years which concern issues of craft and concept, analog proxies for digital artifacts, authorship, ownership, and the implications, liberating and sometimes frightening, of our ever increasing connectedness.  
+Artistically, the project is a continuation of ideas I have been playing with for several years concerning issues of craft and concept, analog proxies for digital artifacts, authorship, ownership, and the implications, liberating and sometimes frightening, of our ever increasing connectedness.  
 
 Finally, the project is a manifestation of what I think the future of art should, and perhaps, must be; connected, interactive, random and probabalistic, democratic, non-deterministic and... beautiful.  
 
@@ -55,6 +55,3 @@ COMING SOON
 [D3.js](https://github.com/mbostock)
 [Bottle.py](http://bottlepy.org/)
 
-## Images & Videos
-
-COMING SOON
