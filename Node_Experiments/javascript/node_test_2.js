@@ -18,8 +18,8 @@ $( document ).ready(function(){
         .linkDistance(200)
         .size([width, height])
         .linkStrength(function(d) {return d.value /100 })  //use to determine closeness for types of relations.
-        .friction([.25])
-        .alpha([.5])
+        .friction([.3])
+        .alpha([.8])
 
 
         d3.json("test_3.json", function(error,famJSON) {

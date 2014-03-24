@@ -1,0 +1,40 @@
+{
+word:"word"
+definition:"definition"
+sources: [{source:"dictionary"
+           date: Project start date. },
+
+           {source:"Google Trends"
+           date:
+            }.
+
+            {source:contributor,
+            date:
+            ip_address:
+            geo:
+            user_id:
+            mode: twitter, google plus, fb, text, email.
+
+
+
+                ]
+
+    }
+
+If a word that exists is added agaion by contributer, upate, else upsert.
+
+
+#other collections:  sentences: a collection of all the sentencen, randomly generated.  Date, time, image capture of scene when it happened...
+
+
+{sentence:"The quick brown fox",
+ date: date,
+ image: binary image file
+ words: [word, word,word,word,word]
+ schema:from generators
+
+ }
+
+users collection
+
+{users
