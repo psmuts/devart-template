@@ -24,7 +24,7 @@ Something about creativity being provoked by unexpected, unpredictable relations
 
 ## Link to Prototype
 
-[Prototype 1](http://psmutstest.appspot.com/devart1 "Devart Link")
+[http://psmutstest.appspot.com/devart1](http://psmutstest.appspot.com/devart1 "Devart Link")
 
 ## Example Code
 
