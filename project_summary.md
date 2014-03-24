@@ -23,9 +23,8 @@ Finally, the project is a manifestation of what I think the future of art should
 Something about creativity being provoked by unexpected, unpredictable relations of ideas... 
 
 ## Link to Prototype
-COMING SOON
 
-[Example Link](http://psmutstest.appspot.com/devart1 "Devart Link")
+[Prototype 1](http://psmutstest.appspot.com/devart1 "Devart Link")
 
 ## Example Code
 
