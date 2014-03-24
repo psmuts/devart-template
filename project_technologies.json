@@ -6,12 +6,12 @@
         ],
         "platforms": [
             "Google App Engine",
-            "python",
-            "bottle",
+            "Python",
+            "Bottle",
             "MongoDB"
         ],
         "toolkits": [
-            "javascript",
+            "JQuery",
             "D3.js"
         ]
     },
