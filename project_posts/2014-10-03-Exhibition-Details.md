@@ -4,6 +4,6 @@ The exhibition display will be a projection of the project running in a Google C
 ![Image1](../project_images/installation_view_1.png "Exhibition View")
 ![Image1](../project_images/installation_view_2.png "Exhibition View")
 
-On the implementation side, the installation only requires an Internet connected computer and a projector.  The browser will connect to the project backend via http and a REST API implemented using Bottle and running on Google App Engine. 
+On the implementation side, the installation requires an Internet connected computer and a projector.  The browser will connect to the project backend via http and access a REST API implemented using Bottle and running on Google App Engine to continually update and words and generate sentences. 
 
 
