@@ -35,7 +35,7 @@
       <file leaf-file-name="devartv1.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/devartv1.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="762" selection-end="762" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="480">
+            <state line="24" column="7" selection-start="822" selection-end="822" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="16" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1335">
+            <state line="35" column="16" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="node_test_2.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/node_test_2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="18" selection-start="7496" selection-end="7496" vertical-scroll-proportion="0.7378872" vertical-offset="1651" max-vertical-offset="3210">
+            <state line="16" column="26" selection-start="380" selection-end="380" vertical-scroll-proportion="0.19062749" vertical-offset="0" max-vertical-offset="3210">
               <folding />
             </state>
           </provider>
@@ -102,16 +102,16 @@
         <option value="$PROJECT_DIR$/views/test.html" />
         <option value="$PROJECT_DIR$/colorbrewer.js" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/views/devartv1.tpl" />
         <option value="$PROJECT_DIR$/wordsDAO.py" />
         <option value="$PROJECT_DIR$/styles/main.css" />
+        <option value="$PROJECT_DIR$/views/devartv1.tpl" />
         <option value="$PROJECT_DIR$/lib/node_test_2.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="22" />
+    <option name="x" value="339" />
+    <option name="y" value="60" />
     <option name="width" value="1767" />
     <option name="height" value="1369" />
   </component>
@@ -406,9 +406,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -430,6 +427,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -531,7 +531,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="22" width="1767" height="1369" extended-state="0" />
+    <frame x="339" y="60" width="1767" height="1369" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -547,11 +547,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2621664" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -576,6 +576,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="37" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/devartv1.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="16" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/node_test_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="18" selection-start="7496" selection-end="7496" vertical-scroll-proportion="0.0" vertical-offset="1651" max-vertical-offset="3210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/colorbrewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="300" column="3" selection-start="18876" selection-end="18876" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="4605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordsDAO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="0" selection-start="23" selection-end="5324" vertical-scroll-proportion="0.0" vertical-offset="1353" max-vertical-offset="2685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="37" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2310">
@@ -786,14 +828,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/devartv1.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="762" selection-end="762" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="480">
+        <state line="24" column="7" selection-start="822" selection-end="822" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="16" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1335">
+        <state line="35" column="16" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
           <folding />
         </state>
       </provider>
@@ -803,7 +845,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="18" selection-start="7496" selection-end="7496" vertical-scroll-proportion="0.7378872" vertical-offset="1651" max-vertical-offset="3210">
+        <state line="16" column="26" selection-start="380" selection-end="380" vertical-scroll-proportion="0.19062749" vertical-offset="0" max-vertical-offset="3210">
           <folding />
         </state>
       </provider>

@@ -17,11 +17,9 @@
 <meta charset="utf-8">
 </head>
 <body>
-            <div class = "splash_text" id = "high_text">
+    <div id = "splash_container">
+            <div class = "splash_text" id = "high_text"></div>
 
-            </div>
     </div>
 
 </body>
-
-        <div class = "splash_text" id="high_text"></div>

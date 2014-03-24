@@ -14,7 +14,7 @@ $( document ).ready(function(){
     //width = $(document).width
     //height = $(document).height
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#splash_container").append("svg")
         .attr("width", width)
         .attr("height", height);
 
