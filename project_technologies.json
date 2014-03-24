@@ -2,11 +2,10 @@
     "technologies": {
         "apis": [
             "Google+",
-            "Google Translate"
-            
+
         ],
         "platforms": [
-            "App Engine",
+            "Google App Engine",
             "python",
             "bottle",
             "MongoDB"
