@@ -10,7 +10,7 @@ Peter Smuts http://github.com/psmuts
 
 ## Description
 
-"Beauty is Random" is powered by the interplay between networks,  social and technological, and random algorithms.  The project collects individual words, word offered by participants via Google+, Twitter, and Facebook; words collected from Google Trends and finally, a randomized selection of words from the Oxford English Dictionary.  These words become both visual and etymological seeds for the creation of dynamic network visualizations and 'exquisite corpse' sentences (funny, sad, shocking, absurd, poetic and sometimes beautiful) constructed using the collected words and translated between languages using Google Translate.  
+"Beauty is Random" is powered by the interplay between networks,  social and technological, and randomizing algorithms and language.  The project collects individual words, word offered by participants via Google+, Twitter, and Facebook; words collected from Google Trends and finally, a randomized selection of words from the Oxford English Dictionary.  These words become both visual and etymological seeds for the creation of dynamic network visualizations and 'exquisite corpse' sentences (funny, sad, shocking, absurd, poetic and sometimes beautiful) constructed using the collected words and translated between languages using Google Translate.  
 
 Technologically, the project leverages dynamic web technologies as well as a couple machine learning classification and ranking algorithms. The project will harness the tools and techniques of "Big Data" to efficiently process and analyze project data that will be incorporated into future phases of the project.
 
