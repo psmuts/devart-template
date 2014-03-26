@@ -20,8 +20,6 @@ Artistically, the project is a continuation of ideas I have been playing with fo
 
 Finally, the project is a manifestation of what I think the future of art should, and perhaps, must be; connected, interactive, random and probabilistic, democratic, non-deterministic and... beautiful. 
 
-Something about creativity being provoked by unexpected, unpredictable relations of ideas... 
-
 ## Link to Prototype
 
 [http://psmutstest.appspot.com/devart1](http://psmutstest.appspot.com/devart1 "Devart Link")
