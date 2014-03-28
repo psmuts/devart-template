@@ -11,9 +11,9 @@
             "Bottle",
             "MongoDB"
         ],
-        "toolkits": []
+        "toolkits": [
             "D3.js"
-        ]
+        ],
     },
     "themes": [
         "Language",
