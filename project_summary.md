@@ -14,9 +14,9 @@ Peter Smuts http://github.com/psmuts
 
 Technologically, the project leverages dynamic web technologies as well as a couple machine learning classification and ranking algorithms. The project will harness the tools and techniques of "Big Data" to efficiently process and analyze project data that will be incorporated into future phases of the project.
 
-Technologially, the project leverages Google App Engine running python backend and HTML5,CSS3,JS browser stack.  Future iterations of the project will harness "Big Data" techniques to efficiently process and analyze project data that will be incorporated into future phases of the project.
+Technologially, the project runs on Google App Engine with a Python backend, Bottle controller and HTML5,CSS3,JS browser stack.  Future iterations of the project will harness "Big Data" techniques to efficiently process and analyze project data that will be incorporated into upcoming phases of the project.
 
-Participants will be contribute to the project via social media by placing #beautyisrandom tag before their contributed word and an optional word type identifier.  i.e. #BeautyisRandom snuffaluffagus noun.  Contributed words will immediately flash onto the projected scene, in real time (or as fast as they propagate from the various social networks.) I love the idea of visitor to the museum posting words from their smartphones and seeing their words become part of the art in realtime.
+Participants will contribute to the project via social media by placing #beautyisrandom tag before their contributed word and an optional word type identifier.  i.e. #BeautyisRandom snuffaluffagus noun.  Contributed words will immediately flash onto the projected scene, in real time (or as fast as they propagate from the various social networks.) I love the idea of visitor to the museum posting words from their smartphones and seeing their words become part of the art in realtime.
 
 Artistically, the project is a continuation of ideas I have been playing with for several years concerning issues of craft and concept, analog proxies for digital artifacts, authorship, ownership, and the implications, liberating and sometimes frightening, of our ever increasing connectedness.  
 
